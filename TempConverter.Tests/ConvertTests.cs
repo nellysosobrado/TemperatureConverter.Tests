@@ -41,7 +41,7 @@ namespace TempConverter.Tests
         }
 
         [TestMethod]
-        public void Check_CToText_Kallt()
+        public void Check_CToText_Cold()
         {
             double c = 5;
             string expected = "Cold";
@@ -50,7 +50,7 @@ namespace TempConverter.Tests
         }
 
         [TestMethod]
-        public void Check_CToText_Varmt()
+        public void Check_CToText_Varm()
         {
             double c = 15;
             string expected = "Warm";
@@ -59,7 +59,7 @@ namespace TempConverter.Tests
         }
 
         [TestMethod]
-        public void Check_CToText_Hett()
+        public void Check_CToText_Hot()
         {
             double c = 25;
             string expected = "Hot";
