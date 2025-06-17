@@ -19,7 +19,18 @@ namespace TempConverter.Tests
         [TestMethod]
         public void Check_F2C()
         {
+
+            // Arrange
+            double f = 32;
+            double c = 0;
+            // Act
+            double result = _sut.f2c(f);
+            // Assert
+            // (expected , received)
+            Assert.AreEqual(c, result);
+
         }
+
     }
 
 }
